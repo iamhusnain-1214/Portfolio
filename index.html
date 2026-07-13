@@ -218,7 +218,7 @@ html[data-theme="dark"] .btn-primary{background:var(--gold);color:#0B1220;box-sh
 }
 
 /* ---------- Demos ---------- */
-.demo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px;}
+.demo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:22px;}
 .demo-card{
   border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden;
   transition:transform .4s ease, box-shadow .4s ease;
@@ -295,6 +295,24 @@ footer{text-align:center;padding:36px 8vw;font-family:var(--mono);font-size:12px
   .spine-title{font-size:12px;}
   .spine-nav a{font-size:10px;}
   section{padding:90px 6vw 50px;}
+  .contact-inner{padding:46px 24px;}
+  .demo-grid{grid-template-columns:1fr;}
+  .ledger{padding:22px;}
+  .btn{font-size:13.5px;padding:12px 20px;}
+  .hero-cta{gap:12px;}
+  .chapter-card{padding:24px 20px;}
+  .about-text .lede{font-size:21px;}
+}
+@media(max-width:480px){
+  .spine{width:52px;}
+  .spine-title{font-size:10px;}
+  .spine-nav{gap:20px;}
+  .spine-nav a{font-size:9px;}
+  section{padding:80px 5vw 40px;}
+  .hero-sub{font-size:16.5px;}
+  .tag{font-size:11px;padding:6px 12px;}
+  .contact-inner{padding:36px 18px;}
+  .skill-cat, .ach-card, .ledger{padding:20px;}
 }
 </style>
 </head>
